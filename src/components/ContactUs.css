@@ -1,0 +1,18 @@
+.WAbutton, .Instabutton {
+    width: 30px; 
+    height: 30px; 
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    border:black;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .WAbutton img, .Instabutton img {
+    width: 500%;
+    height: auto;
+    border-radius: 800px;
+  }
+  
+  

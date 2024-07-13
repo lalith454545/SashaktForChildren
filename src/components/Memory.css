@@ -1,0 +1,113 @@
+.Appmemo {
+    max-width: 860px;
+    margin: 50px auto; 
+    padding-top: 2px;
+    /* padding: 20px; */
+    font-family: "Gill Sans Extrabold", sans-serif; /* Apply Gill Sans Extrabold font */
+  }
+  
+  .card-gridyesh2 {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(150px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .info-containeryesh2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .info-itemyesh2 {
+    background-color: #4cafaa;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    color: #0a0909;
+    align-items: center;
+    font-family: "Goudy Bookletter 1911", sans-serif; /* Apply Goudy Bookletter 1911 font */
+  }
+  
+  .new-game-buttonyesh2,
+  .rules-button {
+    background-color: #4cafaa;
+    color: #e6dee4;
+    padding: 10px 15px;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-family: "Goudy Bookletter 1911", sans-serif; /* Apply Goudy Bookletter 1911 font */
+  }
+  
+  .new-game-buttonyesh2:hover,
+  .rules-button:hover {
+    background-color: #071a08;
+  }
+  
+  .titleyesh2 {
+    font-size: 2rem;
+    color: #000000;
+    margin-bottom: 20px;
+    font-family: "Gill Sans Extrabold", sans-serif; /* Apply Gill Sans Extrabold font */
+  }
+  
+  .rules-section {
+    margin-top: 20px;
+  }
+  
+  .rules-section h2 {
+    color: #3498db;
+    font-family: "Gill Sans Extrabold", sans-serif; /* Apply Gill Sans Extrabold font */
+  }
+  
+  .rules-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .rules-section li {
+    margin-bottom: 10px;
+  }
+  
+  /* Styles for the RULES modal */
+  .rules-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+  }
+  
+  .rules-content {
+    background: #c56868;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    font-family: "Goudy Bookletter 1911", sans-serif; /* Apply Goudy Bookletter 1911 font */
+  }
+  
+  .rules-content h2 {
+    color: #fff;
+  }
+  
+  .rules-content p {
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .rules-content button {
+    background-color: #4caf50;
+    color: #fff;
+  }

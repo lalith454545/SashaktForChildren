@@ -1,0 +1,24 @@
+.credit-page {
+    text-align: center;
+  }
+  
+  .members-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .member {
+    margin: 10px;
+  }
+  
+  .member img {
+    width: 150px; /* Adjust the width as needed */
+    height: 150px; /* Adjust the height as needed */
+    border-radius: 50%;
+  }
+  
+  .member p {
+    margin-top: 10px;
+  }
+  
